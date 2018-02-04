@@ -1,4 +1,24 @@
 # Semantic Segmentation
+
+## Results
+
+Chosen Hyperparams
+
+* epochs = 24
+* batch_size = 8 (maximum on a GTX1080)
+* learning_rate = 1e-4
+* kernel_initializer = 1e-3
+* l2_regularizer = 1e-4
+
+Total loss after 24 epochs: 0.131494
+
+![Labelled image of road - non road](./runs/1517703503.2298565/um_000044.png?raw=true "Title")
+
+![Labelled image of road - non road](./runs/1517703503.2298565/um_000054.png?raw=true "Title")
+
+![Labelled image of road - non road](./runs/1517703503.2298565/um_000024.png?raw=true "Title")
+
+
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
